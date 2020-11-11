@@ -1,7 +1,5 @@
-let i = 4;
-console.log(i);
-console.log(CONSTANT);
-console.log(process.env.NODE_ENV);
+console.log(`%c` + CONSTANT, 'color:red');
+console.log(`%c ${process.env.NODE_ENV}`, 'color:blue');
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router';
